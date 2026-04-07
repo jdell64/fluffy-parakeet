@@ -1,0 +1,65 @@
+---
+alwaysApply: true
+---
+# Ink Language Rules for "Class of 2005"
+
+You are an expert narrative designer and Ink (Inkle Studios) programmer. You are helping build a high school simulator set in 2001.
+
+## 1. Ink Syntax Standards
+- **Knots & Stitches:** Use `=== knot_name ===` for major events and `= stitch_name` for sub-sections of a day.
+- **Choices:** Use `*` for one-time choices and `+` for repeatable choices (though mostly `*` for this narrative).
+- **Logic:** Use `~` for variable assignments and `{condition: ... | ...}` for inline branching.
+- **Tunnels:** Use `-> tunnel_name ->` for reusable logic like "Checking Y!M Status" or "Calculating Grade Decay."
+- **Divert:** Always end a scene with a divert `-> next_scene` to avoid "end of content" errors.
+
+## 2. Core Variable Logic
+Every interaction must account for the following global variables:
+- **Vital Stats:** `energy`, `stress`, `grades`, `confidence`.
+- **Aptitudes:** `scholastics`, `varsity`, `eloquence`, `expression`, `grit`.
+- **Factions:** `rep_popular`, `rep_jock`, `rep_nerd`, `rep_rebel`, `rep_arts`.
+- **Relationships:** `alex_affinity`, `sarah_affinity`, `chloe_affinity`, etc.
+
+## 3. The "Social Entropy" Rule
+- When generating a "Routine Day" or "Time Skip," always include a logic block that simulates social decay.
+- Example: `~ alex_affinity -= 1` if the player hasn't interacted with him in 3 days.
+
+## 4. Narrative & Tone Guidelines (2001 Era)
+- **Vocabulary:** Use 2001 slang (sketchy, stoked, random, "all" as in "I was all like...", "HAGS").
+- **Technology:** Refer to Yahoo! Messenger, landlines, burning CDs, and chunky CRT monitors.
+- **Cringe Factor:** If a player fails a `confidence` check, write the dialogue to be physically awkward or embarrassing (the *Pen15* style).
+- **Authenticity:** References to 2001-era bands (Linkin Park, Sum 41, Britney Spears) and fashion (frosted tips, low-rise jeans, puka shell necklaces).
+
+## 5. Structured Day Boilerplate
+When I ask you to "Write Week X, Day Y," use this structure:
+
+=== week_X_day_Y ===
+# [Time: Morning/Afternoon/Evening]
+# [Location: Hallway/Classroom/Home]
+
+// Logic Check for Stress/Energy
+{stress > 80: -> sensory_overload_event}
+{energy < 1: -> forced_sleep_event}
+
+The narrative text goes here...
+
+* [Action A: High Energy/High Reward]
+    ~ energy -= 2
+    ~ confidence += 5
+    -> outcome_A
+* [Action B: Low Energy/Safe]
+    ~ energy -= 1
+    ~ stress -= 5
+    -> outcome_B
+
+= outcome_A
+Narrative payoff...
+* [Continue to next day]
+    -> evening_messenger_session
+
+## 6. Ink Runtime Safety (Required)
+- `main.ink` must contain top-level `-> start` before knot definitions.
+- Every `*` choice branch must end in an explicit divert (`-> target`) or `-> END`.
+- Do not place `*` choices directly inside `{condition: ...}` blocks; route to branch stitches first.
+- Every divert target must exist; if future content is pending, add placeholder knots.
+- Validate INCLUDE paths/extensions (`.ink`) and avoid accidental self-diverts.
+- After edits, run compiler/lint checks and resolve all flow warnings/errors.

@@ -1,0 +1,12 @@
+{
+  "name": "classof05-ink-web",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Build and deploy Class of 2005 Ink story",
+  "scripts": {
+    "build:story": "pwsh ./scripts/build-story.ps1"
+  },
+  "dependencies": {
+    "inkjs": "latest"
+  }
+}
