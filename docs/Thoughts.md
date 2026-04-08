@@ -1,0 +1,1 @@
+There has to be a better way to do "story_date" variable, but this works for now.

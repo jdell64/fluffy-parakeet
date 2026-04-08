@@ -1,4 +1,5 @@
 === week_3_monday ===
+~ story_date = "Mon. Sept. 10, 2001"
 # September 10, 2001
 # Ordinary Monday
 
@@ -23,6 +24,7 @@ You type back like it's important, because right now it feels like just another 
 -> week_3_tuesday
 
 === week_3_tuesday ===
+~ story_date = "Tue. Sept. 11, 2001"
 # September 11, 2001
 # 2nd Period, Ms. Carter's room
 
@@ -52,6 +54,7 @@ You stay online later than usual, not really talking, just watching names glow o
 -> week_3_wednesday
 
 === week_3_wednesday ===
+~ story_date = "Wed. Sept. 12, 2001"
 # September 12, 2001
 # Unity day
 
@@ -74,6 +77,7 @@ At lunch, you see Sarah sitting alone outside on a bench, shoulders tight, eyes 
     -> week_3_thursday
 
 === week_3_thursday ===
+~ story_date = "Thu. Sept. 13, 2001"
 # Thursday night
 # Dial-up and emotional bandwidth
 
@@ -93,6 +97,7 @@ You only have so much emotional fuel left tonight.
     -> week_3_friday
 
 === week_3_friday ===
+~ story_date = "Fri. Sept. 14, 2001"
 # Friday night
 # Candlelight vigil
 

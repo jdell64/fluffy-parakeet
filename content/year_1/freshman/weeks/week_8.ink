@@ -1,4 +1,5 @@
 === week_8_monday ===
+~ story_date = "Mon. Oct. 15, 2001"
 # Morning
 # Spirit Week kickoff
 
@@ -23,6 +24,7 @@ You decide how hard you're participating in the school spirit machine.
     -> week_8_tuesday
 
 === week_8_tuesday ===
+~ story_date = "Tue. Oct. 16, 2001"
 # Morning
 # Twin Day scramble
 
@@ -45,6 +47,7 @@ No one planned ahead, so everyone is panic-matching in homeroom.
     -> week_8_wednesday
 
 === week_8_wednesday ===
+~ story_date = "Wed. Oct. 17, 2001"
 # Afternoon
 # Pep Rally
 
@@ -65,6 +68,7 @@ You get called to the floor for the Balloon Pop relay in front of what feels lik
     -> week_8_thursday
 
 === week_8_thursday ===
+~ story_date = "Thu. Oct. 18, 2001"
 # Evening
 # Big Game vs Water Tower
 
@@ -86,6 +90,7 @@ Derek pings you on Y!M:
     -> week_8_friday
 
 === week_8_friday ===
+~ story_date = "Fri. Oct. 19, 2001"
 # Night
 # THE DANCE
 

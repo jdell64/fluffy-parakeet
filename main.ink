@@ -68,6 +68,8 @@ VAR under_the_gun = false
 VAR burnout = 0
 VAR suspended = false
 
+VAR story_date = "Mon. Aug. 27, 2001"
+
 -> start
 
 === start ===

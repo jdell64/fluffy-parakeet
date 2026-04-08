@@ -1,12 +1,27 @@
 /* global inkjs */
+/* Transcript: set ?noChoiceLog=1 to hide echoed choices in #story. */
 (async function run() {
   const storyEl = document.getElementById("story");
   const choicesEl = document.getElementById("choices");
   const statsHudEl = document.getElementById("stats-hud");
   const statsHudContentEl = document.getElementById("stats-hud-content");
   const statsHudToggleEl = document.getElementById("stats-hud-toggle");
+  const dateHudEl = document.getElementById("date-hud");
+  const dateHudValueEl = document.getElementById("date-hud-value");
 
   const STATS_HUD_COLLAPSED_KEY = "classof05_statsHudCollapsed";
+
+  function shouldLogChoices() {
+    try {
+      const p = new URLSearchParams(window.location.search);
+      if (p.get("noChoiceLog") === "1") return false;
+    } catch {
+      /* ignore */
+    }
+    return true;
+  }
+
+  const choiceLogEnabled = shouldLogChoices();
 
   const STAT_GROUPS = [
     {
@@ -113,6 +128,9 @@
     if (statsHudEl) {
       statsHudEl.hidden = false;
     }
+    if (dateHudEl) {
+      dateHudEl.hidden = false;
+    }
     initStatsHudCollapse();
   }
 
@@ -128,7 +146,7 @@
       if (collapsed) {
         sessionStorage.setItem(STATS_HUD_COLLAPSED_KEY, "1");
       } else {
-        sessionStorage.removeItem(STATS_HUD_COLLAPSED_KEY);
+        sessionStorage.setItem(STATS_HUD_COLLAPSED_KEY, "0");
       }
     } catch {
       /* ignore quota / private mode */
@@ -137,17 +155,33 @@
 
   function initStatsHudCollapse() {
     if (!statsHudEl || !statsHudToggleEl) return;
-    let startCollapsed = false;
+    let startCollapsed = true;
     try {
-      startCollapsed = sessionStorage.getItem(STATS_HUD_COLLAPSED_KEY) === "1";
+      const v = sessionStorage.getItem(STATS_HUD_COLLAPSED_KEY);
+      if (v === "0") {
+        startCollapsed = false;
+      } else if (v === "1") {
+        startCollapsed = true;
+      }
     } catch {
-      startCollapsed = false;
+      startCollapsed = true;
     }
     setStatsHudCollapsed(startCollapsed);
     statsHudToggleEl.addEventListener("click", () => {
       const next = !statsHudEl.classList.contains("stats-hud--collapsed");
       setStatsHudCollapsed(next);
     });
+  }
+
+  function updateDateHud(story) {
+    if (!dateHudEl || dateHudEl.hidden || !story || !dateHudValueEl) return;
+    try {
+      const raw = story.variablesState.$("story_date");
+      const text = formatStatValue(raw);
+      dateHudValueEl.textContent = text === "—" ? "—" : text;
+    } catch {
+      dateHudValueEl.textContent = "—";
+    }
   }
 
   function updateStatsHud(story) {
@@ -165,10 +199,55 @@
     }
   }
 
-  function appendLine(text) {
+  function appendSceneTags(tags) {
+    if (!storyEl || !tags || !tags.length) return;
+    const wrap = document.createElement("div");
+    wrap.className = "story__scene";
+    wrap.setAttribute("role", "status");
+
+    const timeRow = document.createElement("div");
+    timeRow.className = "story__scene-time";
+    const strong = document.createElement("strong");
+    strong.textContent = tags[0];
+    timeRow.appendChild(strong);
+    wrap.appendChild(timeRow);
+
+    for (let i = 1; i < tags.length; i += 1) {
+      const sub = document.createElement("div");
+      sub.className = "story__scene-sub";
+      sub.textContent = tags[i];
+      wrap.appendChild(sub);
+    }
+
+    storyEl.appendChild(wrap);
+  }
+
+  function appendNarrativeParagraph(text) {
+    const t = (text || "").trim();
+    if (!t || !storyEl) return;
     const p = document.createElement("p");
-    p.textContent = text;
+    p.className = "story__body";
+    p.textContent = t;
     storyEl.appendChild(p);
+  }
+
+  function appendChoiceEcho(label) {
+    if (!storyEl || !label) return;
+    const p = document.createElement("p");
+    p.className = "story__choice";
+    const mark = document.createElement("span");
+    mark.className = "story__choice-mark";
+    mark.textContent = "▸ ";
+    const span = document.createElement("span");
+    span.className = "story__choice-text";
+    span.textContent = label;
+    p.appendChild(mark);
+    p.appendChild(span);
+    storyEl.appendChild(p);
+  }
+
+  function appendLine(text) {
+    appendNarrativeParagraph(text);
   }
 
   function clearChoices() {
@@ -189,6 +268,9 @@
       const btn = document.createElement("button");
       btn.textContent = choice.text;
       btn.addEventListener("click", () => {
+        if (choiceLogEnabled) {
+          appendChoiceEcho(choice.text);
+        }
         story.ChooseChoiceIndex(choice.index);
         render(story);
       });
@@ -198,10 +280,19 @@
 
   function render(story) {
     while (story.canContinue) {
-      appendLine(story.Continue().trim());
+      const chunk = story.Continue();
+      const text = chunk != null ? String(chunk).trim() : "";
+      const tags = story.currentTags ? Array.from(story.currentTags) : [];
+      if (tags.length) {
+        appendSceneTags(tags);
+      }
+      if (text) {
+        appendNarrativeParagraph(text);
+      }
     }
     renderChoices(story);
     updateStatsHud(story);
+    updateDateHud(story);
     const prefersReducedMotion =
       typeof window.matchMedia === "function" &&
       window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -221,6 +312,7 @@
     const story = new inkjs.Story(json);
     buildStatsHud();
     updateStatsHud(story);
+    updateDateHud(story);
     render(story);
   } catch (err) {
     appendLine(`Failed to load story: ${err.message}`);

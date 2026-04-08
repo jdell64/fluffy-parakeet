@@ -10,10 +10,16 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <main class="container">
-      <h1>Class of 2005</h1>
-      <p class="subtitle">Freshman year interactive story</p>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <h1 class="site-header__title">Class of 2005</h1>
+        <p class="site-header__subtitle">
+          Freshman year interactive story
+        </p>
+      </div>
+    </header>
 
+    <main class="container">
       <section id="story" class="panel"></section>
       <section id="choices" class="choices"></section>
     </main>
@@ -38,6 +44,17 @@
         </button>
       </div>
       <div id="stats-hud-content" class="stats-hud__content"></div>
+    </aside>
+
+    <aside
+      id="date-hud"
+      class="date-hud"
+      aria-live="polite"
+      aria-label="In-story date"
+      hidden
+    >
+      <div class="date-hud__label">Story date</div>
+      <div id="date-hud-value" class="date-hud__value"></div>
     </aside>
 
     <script src="./vendor/ink.js"></script>

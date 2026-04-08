@@ -1,4 +1,5 @@
 === week_2_sunday ===
+~ story_date = "Sun. Sept. 2, 2001"
 # Evening
 # Bedroom desk, Sunday planner
 
@@ -28,10 +29,12 @@ This is the first real lock-in of freshman year.
     -> week_2_sunday_end
 
 === week_2_sunday_end ===
+~ story_date = "Sun. Sept. 2, 2001"
 * [Continue to Monday]
     -> week_2_monday
 
 === week_2_monday ===
+~ story_date = "Mon. Sept. 3, 2001"
 # Morning
 # Ms. Carter's English class
 
@@ -45,6 +48,7 @@ Your pencil taps once against the desk before you can stop it.
     -> week_2_tuesday_hub
 
 === week_2_tuesday_hub ===
+~ story_date = "Tue. Sept. 4, 2001"
 # Afternoon
 # After-school resource loop
 
@@ -83,6 +87,7 @@ You have {energy} Energy left.
     -> week_2_wednesday
 
 === week_2_wednesday ===
+~ story_date = "Wed. Sept. 5, 2001"
 # Midday
 # History class note risk
 
@@ -117,10 +122,12 @@ Ms. Carter's back is turned. The note is right there.
     -> week_2_wednesday_end
 
 === week_2_wednesday_end ===
+~ story_date = "Wed. Sept. 5, 2001"
 * [Continue to Thursday]
     -> week_2_thursday
 
 === week_2_thursday ===
+~ story_date = "Thu. Sept. 6, 2001"
 # Evening
 # Yahoo! Messenger check-in
 
@@ -141,10 +148,12 @@ This week already feels heavier than Week 1.
     -> week_2_thursday_end
 
 === week_2_thursday_end ===
+~ story_date = "Thu. Sept. 6, 2001"
 * [Continue to Friday]
     -> week_2_friday
 
 === week_2_friday ===
+~ story_date = "Fri. Sept. 7, 2001"
 # Afternoon
 # End-of-week reflection
 

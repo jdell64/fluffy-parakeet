@@ -1,4 +1,5 @@
 === week_6_monday ===
+~ story_date = "Mon. Oct. 1, 2001"
 # Morning
 # Cafeteria entrance
 
@@ -25,6 +26,7 @@ Alex: "Okay, real question. What's your plan for the dance?"
     -> week_6_tuesday
 
 === week_6_tuesday ===
+~ story_date = "Tue. Oct. 2, 2001"
 # Afternoon
 # Hallway lockers
 
@@ -47,6 +49,7 @@ Chloe: "So... do you notice anything?"
     -> week_6_wednesday
 
 === week_6_wednesday ===
+~ story_date = "Wed. Oct. 3, 2001"
 # Lunch
 # Survey pressure
 
@@ -68,6 +71,7 @@ Then they stop right in front of you, with Sarah and Marcus close enough to hear
     -> week_6_thursday
 
 === week_6_thursday ===
+~ story_date = "Thu. Oct. 4, 2001"
 # Evening
 # Yahoo! Messenger lurk
 
@@ -94,6 +98,7 @@ Your cursor hovers over Buzz.
     -> week_6_friday
 
 === week_6_friday ===
+~ story_date = "Fri. Oct. 5, 2001"
 # Afternoon
 # Spirit Assembly
 

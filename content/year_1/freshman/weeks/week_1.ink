@@ -1,4 +1,5 @@
 === week_1_monday ===
+~ story_date = "Mon. Aug. 27, 2001"
 # Morning
 # Front doors, August 2001
 
@@ -41,6 +42,7 @@ Alex: "Bro... okay. We got this. Probably."
     -> week_1_tuesday
 
 === week_1_tuesday ===
+~ story_date = "Tue. Aug. 28, 2001"
 # Morning
 # Ms. Carter's English class
 
@@ -79,6 +81,7 @@ The rivalry file opens in your head with a loud click.
     -> week_1_wednesday
 
 === week_1_wednesday ===
+~ story_date = "Wed. Aug. 29, 2001"
 # Afternoon
 # Lunchroom
 
@@ -105,11 +108,13 @@ Alex is at a safe middle table, Sarah is with Marcus and the Populars, and Derek
     -> week_1_wednesday_end
 
 === week_1_wednesday_end ===
+~ story_date = "Wed. Aug. 29, 2001"
 The bell hits before lunch feels finished.
 * [Continue to Thursday]
     -> week_1_thursday
 
 === week_1_thursday ===
+~ story_date = "Thu. Aug. 30, 2001"
 # Evening
 # Home - Yahoo! Messenger
 The modem screams, then settles into that grainy dial-up hush.
@@ -132,6 +137,7 @@ Chloe: "today in gym was a total nightmare. i tripped during volleyball and ever
     -> week_1_thursday_away_message
 
 === week_1_thursday_away_message ===
+~ story_date = "Thu. Aug. 30, 2001"
 Before logging off, you set your first away message:
 
 * [Cryptic lyric - artsy and dramatic.]
@@ -151,11 +157,13 @@ Before logging off, you set your first away message:
     -> week_1_thursday_end
 
 === week_1_thursday_end ===
+~ story_date = "Thu. Aug. 30, 2001"
 Your CRT hums in the dark while the status icon flips to away.
 * [Continue to Friday]
     -> week_1_friday
 
 === week_1_friday ===
+~ story_date = "Fri. Aug. 31, 2001"
 # Afternoon
 # Buses and weekend launch
 

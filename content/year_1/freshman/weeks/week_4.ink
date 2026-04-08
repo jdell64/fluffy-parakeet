@@ -1,4 +1,5 @@
 === week_4_monday ===
+~ story_date = "Mon. Sept. 17, 2001"
 # Morning
 # Hallway - Patriotism and pins
 
@@ -22,6 +23,7 @@ Sarah: "Want one for your backpack?"
     -> week_4_tuesday
 
 === week_4_tuesday ===
+~ story_date = "Tue. Sept. 18, 2001"
 # Afternoon
 # The Lighter (Risk Intro)
 
@@ -46,6 +48,7 @@ He tries to slide a Zippo and a crushed cigarette pack into your open backpack b
     -> week_4_wednesday
 
 === week_4_wednesday ===
+~ story_date = "Wed. Sept. 19, 2001"
 # Morning
 # Group Project pressure
 
@@ -69,6 +72,7 @@ Lily: "If your margins are wrong, this whole thing looks amateur."
     -> week_4_thursday
 
 === week_4_thursday ===
+~ story_date = "Thu. Sept. 20, 2001"
 # Evening
 # The landline conflict
 
@@ -93,6 +97,7 @@ By the time she hangs up, you're past your screen-time rules.
     -> week_4_friday
 
 === week_4_friday ===
+~ story_date = "Fri. Sept. 21, 2001"
 # Afternoon
 # Hallway reset
 

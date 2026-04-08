@@ -1,4 +1,5 @@
 === week_11_monday ===
+~ story_date = "Mon. Nov. 5, 2001"
 # Morning
 # The Forecast
 
@@ -20,6 +21,7 @@ She stops at your desk and offers one without smiling.
     -> week_11_tuesday
 
 === week_11_tuesday ===
+~ story_date = "Tue. Nov. 6, 2001"
 # Afternoon
 # Study Group vs Hangout
 
@@ -44,6 +46,7 @@ Three options, one evening.
     -> week_11_wednesday
 
 === week_11_wednesday ===
+~ story_date = "Wed. Nov. 7, 2001"
 # Midday
 # The Leak
 
@@ -70,6 +73,7 @@ He needs a lookout to distract the janitor while he gets a copy.
     -> week_11_thursday
 
 === week_11_thursday ===
+~ story_date = "Thu. Nov. 8, 2001"
 # Evening
 # The Dial-Up Deadlock
 
@@ -91,6 +95,7 @@ The burnout meter is no longer theoretical.
     -> week_11_friday
 
 === week_11_friday ===
+~ story_date = "Fri. Nov. 9, 2001"
 # Afternoon
 # The Teacher's Warning
 
@@ -106,5 +111,6 @@ The weekend isn't a break - it's a countdown to Monday morning.
     -> week_12_monday
 
 === week_12_monday ===
+~ story_date = "Mon. Nov. 12, 2001"
 Week 12 placeholder.
 -> END

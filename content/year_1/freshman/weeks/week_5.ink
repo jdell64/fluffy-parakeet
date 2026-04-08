@@ -1,4 +1,5 @@
 === week_5_monday ===
+~ story_date = "Mon. Sept. 24, 2001"
 # Morning
 # Group project countdown
 
@@ -21,6 +22,7 @@ Lily drops a giant outline on your desk that you definitely have not read.
     -> week_5_tuesday
 
 === week_5_tuesday ===
+~ story_date = "Tue. Sept. 25, 2001"
 # Afternoon
 # Library work period
 
@@ -41,6 +43,7 @@ You're supposed to research sources, but Derek is hiding behind a bookshelf and 
     -> week_5_wednesday
 
 === week_5_wednesday ===
+~ story_date = "Wed. Sept. 26, 2001"
 # Midday
 # The Pen15 note
 
@@ -61,6 +64,7 @@ Ms. Carter intercepts it mid-pass, taps it against her desk, and stares straight
     -> week_5_thursday
 
 === week_5_thursday ===
+~ story_date = "Thu. Sept. 27, 2001"
 # Evening
 # The all-nighter
 
@@ -81,6 +85,7 @@ The clock keeps moving. Your energy does not.
     -> week_5_friday
 
 === week_5_friday ===
+~ story_date = "Fri. Sept. 28, 2001"
 # Morning
 # Presentation day
 

@@ -1,4 +1,5 @@
 === week_7_monday ===
+~ story_date = "Mon. Oct. 8, 2001"
 # Morning
 # Monday fallout
 
@@ -26,6 +27,7 @@ Alex: "So what's your move now?"
     -> week_7_tuesday
 
 === week_7_tuesday ===
+~ story_date = "Tue. Oct. 9, 2001"
 # Afternoon
 # The Tutor Gambit
 
@@ -54,6 +56,7 @@ Marcus: "I need your History notes. Please."
     -> week_7_wednesday
 
 === week_7_wednesday ===
+~ story_date = "Wed. Oct. 10, 2001"
 # Midday
 # The Hail Mary
 
@@ -83,6 +86,7 @@ If there's a last clean chance to shoot your shot, this is it.
     -> week_7_thursday
 
 === week_7_thursday ===
+~ story_date = "Thu. Oct. 11, 2001"
 # Evening
 # Y!M interrogation
 
@@ -109,6 +113,7 @@ Alex pings you:
     -> week_7_friday
 
 === week_7_friday ===
+~ story_date = "Fri. Oct. 12, 2001"
 # Afternoon
 # The Decision
 

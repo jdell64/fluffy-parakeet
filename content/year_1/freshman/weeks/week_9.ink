@@ -1,4 +1,5 @@
 === week_9_monday ===
+~ story_date = "Mon. Oct. 22, 2001"
 # Morning
 # Monday Morning Review
 
@@ -29,6 +30,7 @@ People are staring. You choose how to carry it.
     -> week_9_tuesday
 
 === week_9_tuesday ===
+~ story_date = "Tue. Oct. 23, 2001"
 # Morning
 # The Smart but Lazy tax
 
@@ -62,6 +64,7 @@ Ms. Carter finally hands back Week 5 project grades.
     -> week_9_wednesday
 
 === week_9_wednesday ===
+~ story_date = "Wed. Oct. 24, 2001"
 # Midday
 # The Wrong Note
 
@@ -82,6 +85,7 @@ Somebody reaches for it.
     -> week_9_thursday
 
 === week_9_thursday ===
+~ story_date = "Thu. Oct. 25, 2001"
 # Evening
 # Y!M Buzz War
 
@@ -103,6 +107,7 @@ Chloe keeps trying to talk about how weird everything feels after the dance.
     -> week_9_friday
 
 === week_9_friday ===
+~ story_date = "Fri. Oct. 26, 2001"
 # Afternoon
 # The Winter Transition
 

@@ -18,7 +18,7 @@ npm install
 npm run build:story
 ```
 
-This compiles `main.ink` to `site/story.json` and copies the inkjs runtime to `site/vendor/ink.js`. Open `site/index.html` in a browser to play locally (or use a static file server if your browser blocks `file://` fetches).
+This compiles `main.ink` to `site/story.json` and copies the inkjs runtime to `site/vendor/ink.js`. Open `site/index.html` in a browser to play locally (or use a static file server if your browser blocks `file://` fetches). The web shell shows Ink `#` scene tags as headers in the transcript, echoes each choice you pick (add `?noChoiceLog=1` to hide those lines), shows the in-world calendar date (`story_date`) in the top-right chip, and keeps stats in the bottom-left HUD.
 
 ## Build
 

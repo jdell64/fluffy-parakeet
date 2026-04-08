@@ -1,4 +1,5 @@
 === week_10_monday ===
+~ story_date = "Mon. Oct. 29, 2001"
 # Morning
 # The Midterm Warning
 
@@ -35,6 +36,7 @@ Your name is printed in block letters, which somehow makes it worse.
     -> week_10_tuesday
 
 === week_10_tuesday ===
+~ story_date = "Tue. Oct. 30, 2001"
 # Afternoon
 # Costume Politics
 
@@ -58,6 +60,7 @@ Chloe catches you by your locker and asks if you want to do a duo costume.
     -> week_10_wednesday
 
 === week_10_wednesday ===
+~ story_date = "Wed. Oct. 31, 2001"
 # Evening
 # HALLOWEEN
 
@@ -82,6 +85,7 @@ Two invitations are on the table, and both feel like a test.
     -> week_10_thursday
 
 === week_10_thursday ===
+~ story_date = "Thu. Nov. 1, 2001"
 # Morning
 # The Sugar Crash
 
@@ -104,6 +108,7 @@ Ms. Carter is in a terrible mood and drops a surprise pop quiz on the class.
     -> week_10_friday
 
 === week_10_friday ===
+~ story_date = "Fri. Nov. 2, 2001"
 # Afternoon
 # The Digital Camera
 
