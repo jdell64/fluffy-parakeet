@@ -202,7 +202,14 @@
     }
     renderChoices(story);
     updateStatsHud(story);
-    window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
+    const prefersReducedMotion =
+      typeof window.matchMedia === "function" &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const scrollBehavior =
+      prefersReducedMotion || (typeof window.matchMedia === "function" && window.matchMedia("(max-width: 600px)").matches)
+        ? "auto"
+        : "smooth";
+    window.scrollTo({ top: document.body.scrollHeight, behavior: scrollBehavior });
   }
 
   try {

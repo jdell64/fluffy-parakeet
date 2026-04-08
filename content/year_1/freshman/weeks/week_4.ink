@@ -18,7 +18,7 @@ Sarah: "Want one for your backpack?"
     ~ rep_popular -= 2
     You keep walking. It feels performative to you.
 
-* [Continue to Tuesday]
+- * [Continue to Tuesday]
     -> week_4_tuesday
 
 === week_4_tuesday ===
@@ -42,7 +42,7 @@ He tries to slide a Zippo and a crushed cigarette pack into your open backpack b
     ~ rep_rebel -= 5
     Derek curses, stuffs it back into his own bag, and gets pulled into the principal's office before last bell.
 
-* [Continue to Wednesday]
+- * [Continue to Wednesday]
     -> week_4_wednesday
 
 === week_4_wednesday ===
@@ -65,7 +65,7 @@ Lily: "If your margins are wrong, this whole thing looks amateur."
     ~ energy -= 1
     You keep your head down and do the busywork line by line.
 
-* [Continue to Thursday]
+- * [Continue to Thursday]
     -> week_4_thursday
 
 === week_4_thursday ===
@@ -89,7 +89,7 @@ By the time she hangs up, you're past your screen-time rules.
     You turn the monitor off and crash early.
     In the morning, Chloe's offline message is short and annoyed.
 
-* [Continue to Friday]
+- * [Continue to Friday]
     -> week_4_friday
 
 === week_4_friday ===

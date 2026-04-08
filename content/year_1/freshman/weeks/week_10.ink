@@ -54,7 +54,7 @@ Chloe catches you by your locker and asks if you want to do a duo costume.
     ~ confidence += 2
     You say you're going as something detached and edgy.
 
-* [Continue to Wednesday]
+- * [Continue to Wednesday]
     -> week_10_wednesday
 
 === week_10_wednesday ===
@@ -78,7 +78,7 @@ Two invitations are on the table, and both feel like a test.
     ~ energy += 5
     You're too old for this and everyone knows it, but free candy beats dignity.
 
-* [Continue to Thursday]
+- * [Continue to Thursday]
     -> week_10_thursday
 
 === week_10_thursday ===
@@ -100,7 +100,7 @@ Ms. Carter is in a terrible mood and drops a surprise pop quiz on the class.
     ~ grades -= 2
     You fake alertness and absorb almost nothing.
 
-* [Continue to Friday]
+- * [Continue to Friday]
     -> week_10_friday
 
 === week_10_friday ===
@@ -122,5 +122,5 @@ Then your Halloween photo appears, and you look absolutely ridiculous.
 November is here.
 The temperature is dropping, and the real academic work is about to begin.
 
-* [Start Week 11...]
+- * [Start Week 11...]
     -> week_11_monday

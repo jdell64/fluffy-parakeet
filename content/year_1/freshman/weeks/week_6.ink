@@ -21,7 +21,7 @@ Alex: "Okay, real question. What's your plan for the dance?"
     ~ hoco_stance = "undecided"
     You shrug it off, but the pressure is officially on.
 
-* [Continue to Tuesday]
+- * [Continue to Tuesday]
     -> week_6_tuesday
 
 === week_6_tuesday ===
@@ -43,7 +43,7 @@ Chloe: "So... do you notice anything?"
     ~ chloe_affinity += 2
     You keep it casual. She smiles, but the moment stays in the just-friends lane.
 
-* [Continue to Wednesday]
+- * [Continue to Wednesday]
     -> week_6_wednesday
 
 === week_6_wednesday ===
@@ -64,7 +64,7 @@ Then they stop right in front of you, with Sarah and Marcus close enough to hear
     ~ sarah_affinity -= 2
     You clown on the clipboard routine. Derek laughs from down the hall.
 
-* [Continue to Thursday]
+- * [Continue to Thursday]
     -> week_6_thursday
 
 === week_6_thursday ===
@@ -90,7 +90,7 @@ Your cursor hovers over Buzz.
     ~ stress += 5
     You type "hey" and delete it five times, then log off in a classic cringe spiral.
 
-* [Continue to Friday]
+- * [Continue to Friday]
     -> week_6_friday
 
 === week_6_friday ===

@@ -17,7 +17,7 @@ Lily drops a giant outline on your desk that you definitely have not read.
     ~ confidence += 2
     You tell her to relax. She quietly adds your name to her slacker list.
 
-* [Continue to Tuesday]
+- * [Continue to Tuesday]
     -> week_5_tuesday
 
 === week_5_tuesday ===
@@ -37,7 +37,7 @@ You're supposed to research sources, but Derek is hiding behind a bookshelf and 
     ~ grades -= 5
     You ditch the project to watch a banned flash animation. Lily sighs loudly from two tables over.
 
-* [Continue to Wednesday]
+- * [Continue to Wednesday]
     -> week_5_wednesday
 
 === week_5_wednesday ===
@@ -57,7 +57,7 @@ Ms. Carter intercepts it mid-pass, taps it against her desk, and stares straight
     ~ parent_trust -= 5
     You play it off for the room, but Ms. Carter writes something on her clipboard.
 
-* [Continue to Thursday]
+- * [Continue to Thursday]
     -> week_5_thursday
 
 === week_5_thursday ===
@@ -77,7 +77,7 @@ The clock keeps moving. Your energy does not.
     ~ grades -= 10
     You choose sanity over polish and accept a mediocre outcome.
 
-* [Continue to Friday]
+- * [Continue to Friday]
     -> week_5_friday
 
 === week_5_friday ===

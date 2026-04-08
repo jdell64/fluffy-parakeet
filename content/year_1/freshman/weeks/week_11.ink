@@ -16,7 +16,7 @@ She stops at your desk and offers one without smiling.
     ~ rep_rebel += 2
     You decline with a smirk. Lily looks at you like you're already dead.
 
-* [Continue to Tuesday]
+- * [Continue to Tuesday]
     -> week_11_tuesday
 
 === week_11_tuesday ===
@@ -40,7 +40,7 @@ Three options, one evening.
     ~ energy += 1
     You play it safe. No gains, but you feel rested.
 
-* [Continue to Wednesday]
+- * [Continue to Wednesday]
     -> week_11_wednesday
 
 === week_11_wednesday ===
@@ -66,7 +66,7 @@ He needs a lookout to distract the janitor while he gets a copy.
     ~ confidence -= 2
     You stay in your seat. Alex thinks you're lame, but you're not in the principal's office.
 
-* [Continue to Thursday]
+- * [Continue to Thursday]
     -> week_11_thursday
 
 === week_11_thursday ===
@@ -87,7 +87,7 @@ The burnout meter is no longer theoretical.
     ~ grades -= 5
     You crash early and wake up Friday with an "Unfinished Work" penalty hanging over you.
 
-* [Continue to Friday]
+- * [Continue to Friday]
     -> week_11_friday
 
 === week_11_friday ===

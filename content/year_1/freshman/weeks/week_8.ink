@@ -19,7 +19,7 @@ You decide how hard you're participating in the school spirit machine.
     ~ rep_popular -= 2
     You hide in the library during lunch and wait for the spectacle to pass.
 
-* [Continue to Tuesday]
+- * [Continue to Tuesday]
     -> week_8_tuesday
 
 === week_8_tuesday ===
@@ -41,7 +41,7 @@ No one planned ahead, so everyone is panic-matching in homeroom.
     ~ stress += 5
     You match the Student Council colors. It works, even if you feel like a fraud.
 
-* [Continue to Wednesday]
+- * [Continue to Wednesday]
     -> week_8_wednesday
 
 === week_8_wednesday ===
@@ -61,7 +61,7 @@ You get called to the floor for the Balloon Pop relay in front of what feels lik
     ~ confidence += 5
     You fail on purpose in the loudest, goofiest way possible. The crowd laughs with you, not at you.
 
-* [Continue to Thursday]
+- * [Continue to Thursday]
     -> week_8_thursday
 
 === week_8_thursday ===
@@ -82,7 +82,7 @@ Derek pings you on Y!M:
     ~ parent_trust -= 10
     You sit on rusted metal watching stadium lights from far away, detached from the high school machine.
 
-* [Continue to Friday]
+- * [Continue to Friday]
     -> week_8_friday
 
 === week_8_friday ===

@@ -22,7 +22,7 @@ Alex: "So what's your move now?"
     ~ chloe_affinity += 5
     You ignore the Marcus drama and ask Chloe what she knows. She says Sarah is overwhelmed by the public spectacle.
 
-* [Continue to Tuesday]
+- * [Continue to Tuesday]
     -> week_7_tuesday
 
 === week_7_tuesday ===
@@ -50,7 +50,7 @@ Marcus: "I need your History notes. Please."
     ~ confidence += 2
     You stay out of it. Not your circus, not your monkeys.
 
-* [Continue to Wednesday]
+- * [Continue to Wednesday]
     -> week_7_wednesday
 
 === week_7_wednesday ===
@@ -79,7 +79,7 @@ If there's a last clean chance to shoot your shot, this is it.
     You abandon the Sarah vortex, find Chloe, and ask.
     She says yes immediately. Relief hits like cold water.
 
-* [Continue to Thursday]
+- * [Continue to Thursday]
     -> week_7_thursday
 
 === week_7_thursday ===
@@ -105,7 +105,7 @@ Alex pings you:
         She says she's probably going solo and shrugs it off with "lol whatever."
     }
 
-* [Continue to Friday]
+- * [Continue to Friday]
     -> week_7_friday
 
 === week_7_friday ===

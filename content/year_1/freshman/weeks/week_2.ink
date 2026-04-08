@@ -76,8 +76,11 @@ You have {energy} Energy left.
     -> week_2_tuesday_hub
 + [Head Home]
     You pack it in for the day.
-    * [Continue to Wednesday]
-        -> week_2_wednesday
+    -> week_2_after_head_home
+
+= week_2_after_head_home
+* [Continue to Wednesday]
+    -> week_2_wednesday
 
 === week_2_wednesday ===
 # Midday

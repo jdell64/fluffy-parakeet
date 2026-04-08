@@ -25,7 +25,7 @@ People are staring. You choose how to carry it.
     ~ confidence -= 2
     You avoid the main hallway until the gossip cycle cools down.
 
-* [Continue to Tuesday]
+- * [Continue to Tuesday]
     -> week_9_tuesday
 
 === week_9_tuesday ===
@@ -78,7 +78,7 @@ Somebody reaches for it.
     ~ stress += 10
     You look away. They read it and laugh. Your face goes nuclear.
 
-* [Continue to Thursday]
+- * [Continue to Thursday]
     -> week_9_thursday
 
 === week_9_thursday ===
@@ -99,7 +99,7 @@ Chloe keeps trying to talk about how weird everything feels after the dance.
     ~ chloe_affinity -= 2
     You set Away and shut the laptop. You can't absorb one more emotion tonight.
 
-* [Continue to Friday]
+- * [Continue to Friday]
     -> week_9_friday
 
 === week_9_friday ===
@@ -129,5 +129,5 @@ You need a place to belong for the next stretch.
 October is over.
 Your Freshman identity is no longer a draft. It's the final copy.
 
-* [Start Week 10...]
+- * [Start Week 10...]
     -> week_10_monday
