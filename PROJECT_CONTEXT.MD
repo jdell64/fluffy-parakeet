@@ -5,7 +5,7 @@
 
 ## 📝 Overview
 
-**Class of 2005** is a run-based, social/psychological simulator set in a "trad-leaning" American high school during the 2001–2002 academic year.
+**Class of 2005** is a run-based, social/psychological simulator set in a "set in a small-town American public high school during the 2001–2002 academic year.
 
 The game is built using **Ink (Inkle Studios)** for narrative logic and state management.
 

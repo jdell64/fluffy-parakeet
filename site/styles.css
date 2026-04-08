@@ -12,7 +12,7 @@ body {
 .container {
   max-width: 840px;
   margin: 0 auto;
-  padding: 24px 16px 48px;
+  padding: 24px 16px 14rem;
 }
 
 h1 {
@@ -61,4 +61,85 @@ button:hover:not(:disabled) {
 button:disabled {
   opacity: 0.6;
   cursor: default;
+}
+
+.stats-hud {
+  position: fixed;
+  left: 12px;
+  bottom: 12px;
+  z-index: 50;
+  width: min(300px, calc(100vw - 24px));
+  max-height: min(55vh, 420px);
+  display: flex;
+  flex-direction: column;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: #1f2937;
+  border: 1px solid #374151;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.stats-hud__title {
+  margin: 0 0 8px 0;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #9ca3af;
+}
+
+.stats-hud__content {
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 4px;
+  flex: 1;
+  min-height: 0;
+}
+
+.stats-hud__section {
+  margin-bottom: 10px;
+}
+
+.stats-hud__section:last-child {
+  margin-bottom: 0;
+}
+
+.stats-hud__section-title {
+  margin: 0 0 4px 0;
+  font-size: 11px;
+  font-weight: 600;
+  color: #d1d5db;
+}
+
+.stats-hud__dl {
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2px 6px;
+  align-items: baseline;
+}
+
+.stats-hud__dl dt {
+  margin: 0;
+  color: #9ca3af;
+  font-weight: normal;
+}
+
+.stats-hud__dl dd {
+  margin: 0;
+  text-align: right;
+  font-family: ui-monospace, "Cascadia Mono", "Consolas", monospace;
+  color: #f3f4f6;
+}
+
+.stats-hud__value {
+  font-variant-numeric: tabular-nums;
+}
+
+@media (min-width: 900px) {
+  .container {
+    padding-bottom: 5rem;
+  }
 }
