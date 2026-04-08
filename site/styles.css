@@ -68,17 +68,19 @@ button:disabled {
   left: 12px;
   bottom: 12px;
   z-index: 50;
-  width: min(300px, calc(100vw - 24px));
+  width: min(220px, calc(100vw - 24px));
   max-height: min(55vh, 420px);
   display: flex;
   flex-direction: column;
-  padding: 10px 12px;
+  padding: 8px 10px;
   border-radius: 8px;
   background: #1f2937;
   border: 1px solid #374151;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
   font-size: 12px;
   line-height: 1.35;
+  overflow-wrap: anywhere;
+  word-wrap: break-word;
 }
 
 .stats-hud__title {
@@ -116,26 +118,32 @@ button:disabled {
 .stats-hud__dl {
   margin: 0;
   display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 2px 6px;
-  align-items: baseline;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+  gap: 4px 6px;
+  align-items: start;
 }
 
 .stats-hud__dl dt {
   margin: 0;
+  min-width: 0;
   color: #9ca3af;
   font-weight: normal;
 }
 
 .stats-hud__dl dd {
   margin: 0;
+  min-width: 0;
   text-align: right;
   font-family: ui-monospace, "Cascadia Mono", "Consolas", monospace;
   color: #f3f4f6;
 }
 
 .stats-hud__value {
+  display: block;
+  max-width: 100%;
   font-variant-numeric: tabular-nums;
+  overflow-wrap: anywhere;
+  word-wrap: break-word;
 }
 
 @media (min-width: 900px) {
