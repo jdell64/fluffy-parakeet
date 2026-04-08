@@ -4,6 +4,9 @@
   const choicesEl = document.getElementById("choices");
   const statsHudEl = document.getElementById("stats-hud");
   const statsHudContentEl = document.getElementById("stats-hud-content");
+  const statsHudToggleEl = document.getElementById("stats-hud-toggle");
+
+  const STATS_HUD_COLLAPSED_KEY = "classof05_statsHudCollapsed";
 
   const STAT_GROUPS = [
     {
@@ -110,6 +113,41 @@
     if (statsHudEl) {
       statsHudEl.hidden = false;
     }
+    initStatsHudCollapse();
+  }
+
+  function setStatsHudCollapsed(collapsed) {
+    if (!statsHudEl || !statsHudToggleEl) return;
+    statsHudEl.classList.toggle("stats-hud--collapsed", collapsed);
+    statsHudToggleEl.setAttribute("aria-expanded", collapsed ? "false" : "true");
+    statsHudToggleEl.setAttribute(
+      "aria-label",
+      collapsed ? "Expand stats panel" : "Collapse stats panel",
+    );
+    try {
+      if (collapsed) {
+        sessionStorage.setItem(STATS_HUD_COLLAPSED_KEY, "1");
+      } else {
+        sessionStorage.removeItem(STATS_HUD_COLLAPSED_KEY);
+      }
+    } catch {
+      /* ignore quota / private mode */
+    }
+  }
+
+  function initStatsHudCollapse() {
+    if (!statsHudEl || !statsHudToggleEl) return;
+    let startCollapsed = false;
+    try {
+      startCollapsed = sessionStorage.getItem(STATS_HUD_COLLAPSED_KEY) === "1";
+    } catch {
+      startCollapsed = false;
+    }
+    setStatsHudCollapsed(startCollapsed);
+    statsHudToggleEl.addEventListener("click", () => {
+      const next = !statsHudEl.classList.contains("stats-hud--collapsed");
+      setStatsHudCollapsed(next);
+    });
   }
 
   function updateStatsHud(story) {

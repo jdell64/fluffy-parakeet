@@ -22,7 +22,18 @@
       aria-label="Character stats"
       hidden
     >
-      <h2 class="stats-hud__title">Stats</h2>
+      <div class="stats-hud__header">
+        <button
+          type="button"
+          id="stats-hud-toggle"
+          class="stats-hud__toggle"
+          aria-expanded="true"
+          aria-controls="stats-hud-content"
+        >
+          <span class="stats-hud__title">Stats</span>
+          <span class="stats-hud__caret" aria-hidden="true"></span>
+        </button>
+      </div>
       <div id="stats-hud-content" class="stats-hud__content"></div>
     </aside>
 
