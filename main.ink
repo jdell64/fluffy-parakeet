@@ -1,14 +1,15 @@
-INCLUDE content/year_1/freshman/weeks/week_1.ink
-INCLUDE content/year_1/freshman/weeks/week_2.ink
-INCLUDE content/year_1/freshman/weeks/week_3.ink
-INCLUDE content/year_1/freshman/weeks/week_4.ink
-INCLUDE content/year_1/freshman/weeks/week_5.ink
-INCLUDE content/year_1/freshman/weeks/week_6.ink
-INCLUDE content/year_1/freshman/weeks/week_7.ink
-INCLUDE content/year_1/freshman/weeks/week_8.ink
-INCLUDE content/year_1/freshman/weeks/week_9.ink
-INCLUDE content/year_1/freshman/weeks/week_10.ink
-INCLUDE content/year_1/freshman/weeks/week_11.ink
+INCLUDE content/year_1/freshman/week1/week_1.ink
+INCLUDE content/year_1/freshman/week2/week_2.ink
+INCLUDE content/year_1/freshman/week3/week_3.ink
+INCLUDE content/year_1/freshman/week4/week_4.ink
+INCLUDE content/year_1/freshman/week5/week_5.ink
+INCLUDE content/year_1/freshman/week6/week_6.ink
+INCLUDE content/year_1/freshman/week7/week_7.ink
+INCLUDE content/year_1/freshman/week8/week_8.ink
+INCLUDE content/year_1/freshman/week9/week_9.ink
+INCLUDE content/year_1/freshman/week10/week_10.ink
+INCLUDE content/year_1/freshman/week11/week_11.ink
+INCLUDE content/year_1/freshman/week12/week_12.ink
 INCLUDE calendar.ink
 INCLUDE social_engine.ink
 INCLUDE events_random.ink
@@ -70,10 +71,16 @@ VAR suspended = false
 
 VAR story_date = "Mon. Aug. 27, 2001"
 
+VAR alex_drift = 0
+VAR player_path = ""
+VAR alex_path = ""
+VAR week_1_identity_locked = false
+
 -> start
 
 === start ===
 August, 2001.
-Senior year feels like forever away, and everything still smells like fresh notebooks, floor wax, and cafeteria pizza.
-Class of 2005 starts now.
+Freshman year starts now.
+At Jefferson High, the first week decides more than anybody admits.
+Who you sit with. Who you get seen with. Who still feels like your person by Friday.
 -> week_1_monday

@@ -7,8 +7,8 @@
 - Weeks 1–2 → First Impressions (Foundation)
 - Week 3 → The Quiet Tuesday (Global Shift)
 - Weeks 4–5 → New Normal + Academic Pressure
-- Weeks 6–8 → Homecoming Arc (Climax)
-- Weeks 9–10 → Fallout + Identity Lock
+- Weeks 6–8 → Homecoming Arc (Midpoint Peak / Identity Acceleration)
+- Weeks 9–10 → Consequences + Drift Acceleration
 - Weeks 11–12 → Midterm Crisis (Survival)
 
 ---
@@ -64,15 +64,16 @@
 # 🔵 Phase 2 — The New Normal (Weeks 4–5)
 
 ## Week 4 — "The New Normal"
-**Theme:** Return of hierarchy + introduction of risk  
+**Theme:** Return of hierarchy, but not full emotional reset  
 
 **Key Systems:**
 - Risk mechanics (contraband, authority)
 - Youth group (popular path gate)
 - Parental pressure seeds
 
-**Climax:**
-- First “real” hangout → identity reinforcement
+**Phase intent:**
+- Things look "normal" again, but social rhythm stays slightly misaligned.
+- Start stacking repeated Alex drift signals without forcing conclusions.
 
 ---
 
@@ -84,28 +85,31 @@
 - Exhaustion / all-nighter system
 - First major grade outcome
 
-**Climax:**
+**Outcome beat:**
 - Presentation Day → grade + parental flags
+- Alex drift remains a realization seed, not an accepted conclusion
 
 ---
 
-# 🟡 Phase 3 — Homecoming Arc (Weeks 6–8)
+# 🟡 Phase 3 — Homecoming Arc (Weeks 6–8, Midpoint Peak)
 
 ## Week 6 — "The Hype"
-**Theme:** Rising social pressure  
+**Theme:** Identity becomes visible  
 
 **Key Systems:**
 - Dance awareness
 - Late Bloomer (Chloe) flag introduced
 - Public reputation checks
 
-**Climax:**
-- Marcus asks Sarah publicly (inciting incident)
+**Week function:**
+- Player is now visibly "someone" in the social system.
+- Invitations, assumptions, and expectations begin following prior choices.
+- Alex remains present, but no longer aligned by default.
 
 ---
 
 ## Week 7 — "The Scramble"
-**Theme:** Player agency vs momentum  
+**Theme:** Social and emotional collision  
 
 **Key Systems:**
 - Social manipulation
@@ -116,13 +120,15 @@
 - Help Marcus / sabotage / ignore
 - Ask Sarah / pivot to Chloe
 
-**Climax:**
-- Sarah decision outcome
+**Week function:**
+- Relationship outcomes become visible consequences.
+- Alex tension reaches a point that can no longer be ignored.
+- Player actions define loyalty-versus-identity direction.
 
 ---
 
 ## Week 8 — "Homecoming Week"
-**Theme:** Maximum pressure / identity test  
+**Theme:** Maximum pressure / midpoint identity test  
 
 **Systems Stress Test:**
 - Energy
@@ -137,24 +143,30 @@
 - Big Game vs Water Tower
 
 **Final Event:**
-- **The Dance (Boss Battle)**
+- **The Dance (Midpoint Peak)**
 
 **Outcome Types:**
 - Sarah path (social win, relational loss)
 - Chloe path (emotional win, social cost)
 - Neutral (grit path)
 
+**Required post-event beat:**
+- After the dance, include a subtle Alex mismatch moment (off-timing, missed connection, or altered tone) without overt confrontation.
+
 ---
 
-# 🟠 Phase 4 — Fallout & Identity Lock (Weeks 9–10)
+# 🟠 Phase 4 — Consequences & Drift Acceleration (Weeks 9–10)
 
 ## Week 9 — "The Aftermath"
-**Theme:** Social consequences  
+**Theme:** Consequences + intentional proximity  
 
 **Key Systems:**
 - Reputation recalibration
 - Relationship decay acceleration
 - Social rumor system
+
+**Alex continuity requirement:**
+- Alex is no longer the default hangout; player must choose him intentionally.
 
 **Climax:**
 - Chat log leak / public embarrassment
@@ -172,8 +184,8 @@
 **Key Event:**
 - Halloween (dual path: church vs woods)
 
-**Climax:**
-- Digital photo exposure event
+**Continuity beat:**
+- Communication with Alex should show tone shift (shorter, less synchronized, or delayed initiative).
 
 ---
 
@@ -189,6 +201,9 @@
 
 **Climax:**
 - Teacher warning → "Under the Gun" status
+
+**Alex split beat:**
+- Heist decision should reflect a values split (risk-taking identity vs containment identity).
 
 ---
 
@@ -214,13 +229,13 @@
 
 ---
 
-# 🎯 First Half Summary
+# 🎯 First Half Summary (Weeks 1–12)
 
 By the end of Week 12:
 
-- Player identity is **no longer fluid**
-- Core relationships are **defined**
-- Academic trajectory is **locked in**
+- Player identity is **forming and externally legible**
+- Core relationships are **directionally defined, not resolved**
+- Academic trajectory is **pressurized, not complete**
 - Player understands:
   - Their clique
   - Their role
@@ -228,14 +243,64 @@ By the end of Week 12:
 
 ---
 
+# 🟣 Phase 6 — Identity Lock (Jan–March)
+
+**Function:** Reinforce who the player became; deepen current lanes; make Alex optional rather than default.
+
+- Social role stabilizes through repetition and consequence.
+- New relationships deepen through routine choices, not one-off events.
+- Alex scenes should require intentional contact or carry noticeable mismatch.
+- System pressure remains present, but emotional continuity leads.
+
+**Expected result by end of Phase 6:**
+
+- Player identity feels stable.
+- Alex bond status is clearly trending (maintained, drifting, or strained).
+
+---
+
+# 🔴 Phase 7 — Break Point (April)
+
+**Function:** Deliver the true year-level climax as an Alex + identity collision.
+
+**Required setup:**
+
+- High-visibility spring event where Alex's lane and player lane conflict.
+- No neutral option: player must choose loyalty or identity direction.
+
+**Required outcomes:**
+
+- Maintained (costly, effort-based)
+- Drifted (default)
+- Fractured (harsh path)
+
+**Tone constraint:**
+
+- No melodrama shortcut; prioritize recognition and irreversible shift over yelling.
+
+---
+
+# 🟢 Phase 8 — Resolution (May)
+
+**Function:** Let consequences breathe and close the year with emotional clarity.
+
+- Reflect how the player changed socially and internally.
+- Resolve Alex state in lived terms (present-but-different, distant, or fractured).
+- Keep ending tone reflective, specific, and non-perfect.
+
+---
+
 # 💡 Pacing Notes
 
 - Weeks 1–2 → Fast, exploratory  
 - Week 3 → Slow, heavy, emotional  
-- Weeks 4–5 → Structured pressure  
-- Weeks 6–8 → Escalation → Climax  
-- Weeks 9–10 → Decompression + consequences  
+- Weeks 4–5 → Structured pressure + subtle misalignment  
+- Weeks 6–8 → Midpoint peak (identity acceleration)  
+- Weeks 9–10 → Consequences + drift acceleration  
 - Weeks 11–12 → High-stress survival  
+- Jan–March → Identity lock and continuity pressure  
+- April → Break Point (true emotional climax)  
+- May → Quiet resolution  
 
 ---
 
@@ -246,6 +311,40 @@ By the end of Week 12:
 >
 > to:
 > “This is who you are.”
+
+And for Alex specifically:
+
+> "We used to be automatic."
+>
+> to:
+> "Now this takes effort."
+
+## Alex Drift Curve (Implementation)
+
+Track relationship drift as continuity, not single-scene drama.
+
+- Suggested variable: `alex_proximity` (0-100 scale)
+- Starts high and changes through repeated context signals
+- Gated scene variants:
+  - High proximity: default/effortless interaction variants
+  - Mid proximity: subtle mismatch variants
+  - Low proximity: intentional-contact-only variants
+- Update from:
+  - hangout selection
+  - who initiates chats
+  - public loyalty choices
+  - high-pressure ethical choices (example: Week 11 heist)
+
+## Spring Climax Requirements
+
+This story does not climax at Homecoming or Midterms.
+
+The true climax must happen in spring and must include:
+
+- identity + relationship collision
+- explicit non-neutral player choice
+- irreversible Alex state transition
+- post-choice quiet reflection scene
 
 
 # Details
@@ -574,7 +673,7 @@ The Branch: * If you helped Marcus: They go together. You are the "Honorable Fri
 If you sabotaged/asked: Sarah tells Marcus "No" or "I'm going with [Player]."
 If you stayed out: They are the "Power Couple," and you are the "Ghost."
 
-🎊 Week 8: "Homecoming Week" (The Climax)
+🎊 Week 8: "Homecoming Week" (Midpoint Peak)
 Theme: High Visibility. All systems (Stress, Energy, Reputation) are tested daily.
 🌅 Monday (10/15) — Spirit Day: Pajama Day
 Agency Choice:
@@ -599,7 +698,7 @@ Agency Choice:
 Stay at the Game: Support your "Date" (Sarah or Chloe).
 Go to the Tower: (Massive Rebel Rep, unlocks a "Deep Secret" from Derek).
 💃 Friday (10/19) — THE DANCE
-The "Boss Battle": A series of timed dialogue choices in the gym, under the flickering lights and the smell of cheap cologne.
+The "Pressure Peak": A series of timed dialogue choices in the gym, under the flickering lights and the smell of cheap cologne.
 Key Moments:
 The Entrance: How do you walk in? (Determines starting Confidence for the night).
 The Slow Dance: "Hero" by Enrique Iglesias or "How You Remind Me" by Nickelback plays. Who are you dancing with?
