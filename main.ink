@@ -46,6 +46,10 @@ VAR extraversion = 0
 VAR agreeableness = 0
 VAR neuroticism = 0
 
+VAR honesty = 0
+VAR social_energy = 5
+VAR reflection = 0
+
 VAR W3_unity_active = false
 VAR empathy_score = 0
 VAR risk_level = 0

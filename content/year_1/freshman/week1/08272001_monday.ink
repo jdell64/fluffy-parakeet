@@ -155,7 +155,7 @@ You definitely didn’t read this book.
   ~ test_score -= 1
   ~ grit += 1
   You stare at the page until time runs out.
-
+-
 Ms. Carter collects the papers without reacting.
 
 "Name?"
@@ -187,10 +187,13 @@ You hesitate.
 * [Yeah, obviously.]
   ~ confidence += 1
   Lily nods like she doesn’t believe you.
+  -> week_1_period2_after_lily
 * [Not really.]
   ~ honesty += 1
   Lily: "Cool. So you're guessing then."
+  -> week_1_period2_lily_blunt
 
+= week_1_period2_lily_blunt
 She says it casually.
 
 Not mean.
@@ -199,6 +202,9 @@ Just accurate.
 
 That’s worse.
 
+-> week_1_period2_after_lily
+
+= week_1_period2_after_lily
 Teacher starts talking.
 
 Your mind drifts.
@@ -313,12 +319,15 @@ You stare at the blinking cursor.
 * [“it was fine”]
   ~ chloe_affinity += 1
   You keep it simple.
+  -> week_1_monday_evening_end
 * [“kinda weird honestly”]
   ~ chloe_affinity += 2
   Chloe: "yeah… same"
+  -> week_1_monday_evening_end
 * [Don’t reply yet]
   ~ alex_drift += 1
   You watch the cursor blink.
+  -> week_1_monday_evening_end
 
 = week_1_monday_evening_end
 
